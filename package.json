@@ -1,0 +1,25 @@
+{
+  "name": "gemini-live-vision-copilot",
+  "private": false,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Multimodal Gemini Live API Copilot streaming 16kHz PCM voice + voice-gated 1 FPS JPEG screen/camera frames.",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@google/genai": "^1.0.0",
+    "lucide-react": "^0.460.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "@vitejs/plugin-react": "^4.3.4",
+    "typescript": "^5.6.3",
+    "vite": "^6.0.0"
+  }
+}
